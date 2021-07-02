@@ -1,0 +1,39 @@
+// device 1280 * 1920
+
+//component
+@import "./component/button";
+@import "./component/card";
+
+//molecules
+@import "./molecules/colors";
+
+@import "body";
+@import "background";
+
+//organisms
+
+/*---------------------------
+            home
+------------------------------*/
+@import "./organisms/home";
+/*---------------------------
+          favorite
+------------------------------*/
+@import "./organisms/favorite";
+/*---------------------------
+           select
+------------------------------*/
+@import "./organisms/select";
+/*---------------------------
+           takePhoto
+------------------------------*/
+@import "./organisms/takePhoto";
+/*---------------------------
+           fitting
+------------------------------*/
+@import "./organisms/fitting";
+/*---------------------------
+          promotion
+------------------------------*/
+@import "./organisms/promotion";
+

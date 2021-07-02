@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+// device 1280 * 1920
+=======
+// device 1080 * 1920
+>>>>>>> 17b6c426d403d8c4d08db15cc97442f086dac66c
+
+//component
+@import "./component/button";
+@import "./component/card";
+
+//molecules
+@import "./molecules/colors";
+
+@import "body";
+@import "background";
+
+//organisms
+
+/*---------------------------
+            home
+------------------------------*/
+@import "./organisms/home";
+/*---------------------------
+          favorite
+------------------------------*/
+@import "./organisms/favorite";
+/*---------------------------
+           select
+------------------------------*/
+@import "./organisms/select";
+/*---------------------------
+           takePhoto
+------------------------------*/
+@import "./organisms/takePhoto";
+/*---------------------------
+           fitting
+------------------------------*/
+@import "./organisms/fitting";
+/*---------------------------
+          promotion
+------------------------------*/
+@import "./organisms/promotion";
+

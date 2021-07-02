@@ -1,0 +1,34 @@
+.wrapper.takePhoto{
+  position: relative;
+  text-align: center;
+  .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  .stroke{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    img{
+      width: 80%;
+    }
+  }
+  .text_container{
+    margin: 120px auto 0;
+    position: relative;
+    width: 80%;
+    background-color: rgba(0,0,0,.2);
+    .que{
+      color: #fff;
+      font-size: 96px;
+      padding: 60px 10px;
+    }
+  }
+}

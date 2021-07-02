@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "productID": 1,
+      "productName": "Test-Clothes-1",
+      "price": "¥1,000",
+      "color": "blue",
+      "description": "テストデータです。黒の服",
+      "path": "/assets/img/clothes/003434_1.jpg",
+      "edgePath": "/assets/img/edge/003434_1.jpg",
+      "similarClothesPath": {
+        "1": "/assets/img/clothes/019360_1-removebg-preview.png",
+        "2": "/assets/img/clothes/019360_1-removebg-preview.png",
+        "3": "/assets/img/clothes/019360_1-removebg-preview.png",
+        "4": "/assets/img/clothes/019360_1-removebg-preview.png",
+        "5": "/assets/img/clothes/019360_1-removebg-preview.png",
+        "6": "/assets/img/clothes/019360_1-removebg-preview.png"
+      }
+    },
+    {
+      "productID": 2,
+      "productName": "Test-Clothes-2",
+      "price": "¥2,000",
+      "color": "yellow",
+      "description": "テストデータです。紺色の服",
+      "path": "/assets/img/clothes/006026_1.jpg",
+      "edgePath": "/assets/img/edge/006026_1.jpg",
+      "similarClothesPath": {
+        "1": "/assets/img/clothes/000048_1-removebg-preview.png",
+        "2": "/assets/img/clothes/000048_1-removebg-preview.png",
+        "3": "/assets/img/clothes/000048_1-removebg-preview.png",
+        "4": "/assets/img/clothes/000048_1-removebg-preview.png",
+        "5": "/assets/img/clothes/000048_1-removebg-preview.png",
+        "6": "/assets/img/clothes/000048_1-removebg-preview.png"
+      }
+    },
+    {
+      "productID": 3,
+      "productName": "Test-Clothes-3",
+      "price": "¥3,000",
+      "color": "red",
+      "description": "テストデータです。赤の服",
+      "path": "/assets/img/clothes/010567_1.jpg",
+      "edgePath": "/assets/img/edge/010567_1.jpg",
+      "similarClothesPath": {
+        "1": "/assets/img/clothes/019402_1-removebg-preview.png",
+        "2": "/assets/img/clothes/019402_1-removebg-preview.png",
+        "3": "/assets/img/clothes/019402_1-removebg-preview.png",
+        "4": "/assets/img/clothes/019402_1-removebg-preview.png",
+        "5": "/assets/img/clothes/019402_1-removebg-preview.png",
+        "6": "/assets/img/clothes/019402_1-removebg-preview.png"
+      }
+    },
+    {
+      "productID": 4,
+      "productName": "Test-Clothes-4",
+      "price": "¥4,000",
+      "color": "green",
+      "description": "テストデータです。赤の服",
+      "path": "/assets/img/clothes/014396_1.jpg",
+      "edgePath": "/assets/img/edge/014396_1.jpg",
+      "similarClothesPath": {
+        "1": "/assets/img/clothes/019393_1-removebg-preview.png",
+        "2": "/assets/img/clothes/019393_1-removebg-preview.png",
+        "3": "/assets/img/clothes/019393_1-removebg-preview.png",
+        "4": "/assets/img/clothes/019393_1-removebg-preview.png",
+        "5": "/assets/img/clothes/019393_1-removebg-preview.png",
+        "6": "/assets/img/clothes/019393_1-removebg-preview.png"
+      }
+    },
+    {
+      "productID": 5,
+      "productName": "Test-Clothes-5",
+      "price": "¥5,000",
+      "color": "white",
+      "description": "テストデータです。赤の服",
+      "path": "/assets/img/clothes/017575_1.jpg",
+      "edgePath": "/assets/img/edge/017575_1.jpg",
+      "similarClothesPath": {
+        "1": "/assets/img/clothes/019384_1-removebg-preview.png",
+        "2": "/assets/img/clothes/019384_1-removebg-preview.png",
+        "3": "/assets/img/clothes/019384_1-removebg-preview.png",
+        "4": "/assets/img/clothes/019384_1-removebg-preview.png",
+        "5": "/assets/img/clothes/019384_1-removebg-preview.png",
+        "6": "/assets/img/clothes/019384_1-removebg-preview.png"
+      }
+    },
+    {
+      "productID": 6,
+      "productName": "Test-Clothes-6",
+      "price": "¥6,000",
+      "color": "red",
+      "description": "テストデータです。黒の服",
+      "path": "/assets/img/clothes/019119_1.jpg",
+      "edgePath": "/assets/img/edge/019119_1.jpg",
+      "similarClothesPath": {
+        "1": "/assets/img/clothes/019368_1-removebg-preview.png",
+        "2": "/assets/img/clothes/019368_1-removebg-preview.png",
+        "3": "/assets/img/clothes/019368_1-removebg-preview.png",
+        "4": "/assets/img/clothes/019368_1-removebg-preview.png",
+        "5": "/assets/img/clothes/019368_1-removebg-preview.png",
+        "6": "/assets/img/clothes/019368_1-removebg-preview.png"
+      }
+    }
+  ]
+}

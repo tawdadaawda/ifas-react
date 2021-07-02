@@ -1,0 +1,106 @@
+.wrapper.select {
+  .main {
+    .scroll_btn {
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 45%;
+      &.left {
+        left: 5%;
+        transform: translateY(-50%);
+      }
+      &.right {
+        right: 5%;
+        transform: translateY(-50%);
+      }
+      .icon {
+        font-size: 200px;
+        color: rgba(136, 129, 115, .8);
+      }
+    }
+    .card {
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      width: 860px;
+      height: 1300px;
+      transform: translate(-50%, -50%);
+      .card-content {
+        $card-padding: 75px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: $card-padding;
+        display: flex;
+        .text_container {
+          margin-right: auto;
+          z-index: 3;
+          .clothes_name {
+            font-family: Hiragino Maru Gothic Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 96px;
+          }
+          .price {
+            margin-top: 35px;
+            font-family: SF Pro Rounded;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+          }
+        }
+        .colors {
+          height: 80%;
+          .item {
+            $color_btn--size: 75px;
+            margin-bottom: 60px;
+            width: $color_btn--size;
+            height: $color_btn--size;
+            background-color: #fff;
+            border-radius: 100%;
+            &.active {
+              box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.2);
+            }
+            &.blue{
+              background-color: #0043ED;
+            }
+            &.yellow{
+              background-color: #FCCB90;
+            }
+            &.black{
+              background-color: #040404;
+            }
+            &.white{
+              background-color: #FFFFFF;
+              border: 2px solid #d0d0d0;
+            }
+          }
+        }
+        .btn {
+          position: absolute;
+          left: 50%;
+          bottom: 125px;
+          transform: translateX(-50%);
+          width: 450px;
+          height: 130px;
+          font-family: Hiragino Maru Gothic Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 64px;
+          line-height: 96px;
+        }
+        > img {
+          position: absolute;
+          width: 450px;
+          top: 50%;
+          left: 15%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}

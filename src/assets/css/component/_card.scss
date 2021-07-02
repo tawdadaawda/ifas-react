@@ -1,0 +1,27 @@
+// @para 
+$card_size: 80%;
+$con_m_var: 150px;
+
+.card {
+<<<<<<< HEAD
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+=======
+>>>>>>> 17b6c426d403d8c4d08db15cc97442f086dac66c
+  width: $card_size;
+  height: $card_size;
+  border-radius: 50px;
+  box-shadow: 5px 20px 20px 20px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  background-color: #fff;
+<<<<<<< HEAD
+  &.half{
+    transform: translate(0, -50%);
+    width: $card_size / 2;
+    height: $card_size;
+  }
+=======
+>>>>>>> 17b6c426d403d8c4d08db15cc97442f086dac66c
+}

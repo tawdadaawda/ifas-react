@@ -1,0 +1,106 @@
+.wrapper.fitting{
+  position: relative;
+  text-align: center;
+  .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  .main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .colors {
+      height: 80%;
+      position: absolute;      
+      top: 120px;
+      left: 75px;
+      .item {
+        display: none;
+        $color_btn--size: 100px;
+        margin-bottom: 60px;
+        width: $color_btn--size;
+        height: $color_btn--size;
+        background-color: #fff;
+        border-radius: 100%;
+        &.active {
+          display: block;
+          box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.2);
+        }
+        &.blue{
+          background-color: #0043ED;
+        }
+        &.yellow{
+          background-color: #FCCB90;
+        }
+        &.black{
+          background-color: #040404;
+        }
+        &.white{
+          background-color: #FFFFFF;
+          border: 2px solid #d0d0d0;
+        }
+      }
+    }
+    .icons{
+      position: absolute;
+      top: 120px;
+      right: 75px;
+      width: 100px;
+      .icon{
+        margin-bottom: 80px;
+        &.cart{
+          transform: translateX(-4px);
+        }
+      }
+    }
+
+    .interaction{
+      display: none;
+      position: absolute;
+      bottom: 500px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      font-size: 50px;
+      letter-spacing: 5px;
+      padding: 40px 40px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 75px;
+      width: 60%;
+    }
+
+    .clothes{
+      position: absolute;
+      bottom: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      .clothe{
+        $bubbleSize: 250px;
+        margin: 0 40px;
+        width: $bubbleSize;
+        height: $bubbleSize;
+        border-radius: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 10px 10px 4px rgba(124, 124, 124, 0.1), inset 30px 10px 20px rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.active{
+          transform: scale(1.5);
+          margin: 0 80px;
+        }
+        img{
+          width: 70%;
+        }
+      }
+    }
+  }
+}

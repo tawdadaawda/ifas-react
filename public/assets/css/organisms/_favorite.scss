@@ -1,0 +1,51 @@
+// @para
+$item_size: 350px;
+
+.wrapper.favorite {
+  .main {
+    text-align: center;
+    margin: 0 auto;
+    .title {
+      margin-top: 90px;
+      width: 100%;
+      text-align: center;
+      font-family: Hiragino Maru Gothic Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 96px;
+      line-height: 144px;
+      color: #fff;
+    }
+    .list {
+      margin: 0 190px;
+      margin-top: 90px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .item {
+        margin-bottom: 90px;
+        .content {
+          position: relative;
+          margin: 0 auto;
+          width: $item_size;
+          height: $item_size;
+          border-radius: 100%;
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: -12px -5px 4px rgba(255, 255, 255, 0.1), 10px 10px 4px rgba(124, 124, 124, 0.1),
+            inset 30px 10px 20px rgba(255, 255, 255, 0.1);
+          img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            height: auto;
+          }
+        }
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.home {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 860px;
+    height: 1300px;
+    padding: 150px 75px;
+
+    &-content {
+      margin: 0 auto;
+      & > .logo {
+        text-align: center;
+        transform: translateX(2%);
+        img {
+          width: 90%;
+        }
+      }
+      & > .text_container {
+        margin-top: $con_m_var;
+        width: 100%;
+        text-align: center;
+        .title {
+          font-family: Hiragino Maru Gothic Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 96px;
+          line-height: 144px;
+          /* identical to box height */
+          color: #91837b;
+        }
+        .subtitle {
+          margin-top: 45px;
+          font-family: Hiragino Maru Gothic Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 48px;
+          line-height: 72px;
+          /* identical to box height */
+          color: #989898;
+        }
+      }
+      & > .btn_container {
+        margin-top: $con_m_var;
+        text-align: center;
+        .btn {
+          width: 450px;
+          height: 130px;
+          font-family: Hiragino Maru Gothic Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 64px;
+          line-height: 96px;
+        }
+      }
+    }
+  }
+}
